@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Theft Protection</string>
+    <string name="activated">Activated</string>
+    <string name="deactivated">Deactivated</string>
+    <string name="web_client_id">695228257125-qt2lkec53aqt5oeik9qgn0n9ns8ad4j8.apps.googleusercontent.com</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="logout">Logout</string>
+    <string name="alert_action">Take action after following attempt</string>
+    <string name="emailalert">Email Alert</string>
+    <string name="soundalert">Sound Alert</string>
+    <string name="attempt_limit">Attempt Limit</string>
+    <string name="_91">+91</string>
+    <string name="enter_emergency_phone_number">Enter Emergency phone number</string>
+    <string name="cancle">Cancle</string>
+
+
+    <string-array name="unlock_attempt">
+        <item>1 Unlock Attempt</item>
+        <item>2 Unlock Attempt</item>
+        <item>3 Unlock Attempt</item>
+        <item>4 Unlock Attempt</item>
+        <item>5 Unlock Attempt</item>
+    </string-array>
+
+    <string-array name="unlock_attempt_Alias">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

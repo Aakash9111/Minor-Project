@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Alert Action"
+        app:iconSpaceReserved="false">
+
+    <ListPreference android:title="Attempt Limit"
+       android:summary="@string/alert_action"
+       android:entries="@array/unlock_attempt"
+        android:key="max_unlock_attempt"
+        android:defaultValue="3"
+       android:entryValues="@array/unlock_attempt_Alias"
+       app:iconSpaceReserved="false"/>
+
+
+        <SwitchPreference
+            android:title="Detect Break-in"
+            android:summary="Take Image if device gets unlocked afer attempt limits"
+            android:key="break-in"
+            app:iconSpaceReserved="false"
+            android:defaultValue="0"
+            />
+
+
+        <SwitchPreference
+        android:title="@string/emailalert"
+        android:summary="Send Email with device's location"
+        android:key="@string/emailalert"
+        app:iconSpaceReserved="false"
+        android:defaultValue="1"
+       />
+
+        <SwitchPreference
+            android:title="Number Alert"
+            android:summary="Send SMS Alert on Emergency Number"
+            android:key="SMS alert"
+            app:iconSpaceReserved="false"
+            android:defaultValue="0"
+            />
+
+        <SwitchPreference
+            android:title="@string/soundalert"
+            android:summary="Ring Sound when Wrong Password attempt is made"
+            android:key="@string/soundalert"
+            app:iconSpaceReserved="false"
+            android:defaultValue="0"
+            />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            android:key="change_number"
+            android:title="Change Emergency Number"
+            />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Other"
+        app:iconSpaceReserved="false">
+
+        <Preference app:iconSpaceReserved="false"
+            android:key="@string/uninstall"
+            android:title="@string/uninstall"
+            />
+
+        <Preference app:iconSpaceReserved="false"
+            android:title="@string/logout"
+            android:key="@string/logout"
+            />
+
+        <Preference app:iconSpaceReserved="false"
+            android:title="Theft Protection v1.0"
+            />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
