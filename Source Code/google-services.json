@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "695228257125",
+    "project_id": "theft-protection-8bca3",
+    "storage_bucket": "theft-protection-8bca3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695228257125:android:26c719faee7f229a56078c",
+        "android_client_info": {
+          "package_name": "com.example.theftprotection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695228257125-ef3v0kuqbkq1up9pmke2ojlbmjsuvcfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.theftprotection",
+            "certificate_hash": "b0e8cc2efa0ff08ae32a89175ede250a2950dd1c"
+          }
+        },
+        {
+          "client_id": "695228257125-qt2lkec53aqt5oeik9qgn0n9ns8ad4j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqVTqezmmjJFQuua2gR5kmx4iQhXkfTvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695228257125-qt2lkec53aqt5oeik9qgn0n9ns8ad4j8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
